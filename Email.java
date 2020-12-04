@@ -10,7 +10,7 @@ public class Email {
      private int defaultPasswordLength=10;
      private String alternateEmail;
      private String joinyear="2020";
-     private String companySuffix="education.ac.in";
+     private String collegeSuffix="education.ac.in";
      
      //constructor to receive the first name and last name
      public Email(String fname,String lname)
@@ -26,7 +26,7 @@ public class Email {
     	 this.password=randomPassword(defaultPasswordLength);
     	
     	 //combine elements to generate email
-    	 email=fname.toLowerCase()+"."+lname.toLowerCase()+joinyear+"@"+arr[1]+"."+companySuffix;
+    	 email=fname.toLowerCase()+"."+lname.toLowerCase()+joinyear+"@"+arr[1]+"."+collegeSuffix;
     	 
      }
      //Ask for department
